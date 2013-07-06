@@ -10,10 +10,10 @@
     <string name="merchandise">MERCHANDISE</string>
     <string name="radio">RADIO</string>
     <string name="literature">LITERATURE</string>
-    <string name="title_activity_music_a">Music_a</string>
-    <string name="title_activity_events_a">Events_a</string>
-    <string name="title_activity_literature_a">Literature_a</string>
-    <string name="title_activity_merchandise_a">Merchandise_a</string>
+    <string name="title_activity_music_a">Music</string>
+    <string name="title_activity_events_a">Events</string>
+    <string name="title_activity_literature_a">Literature</string>
+    <string name="title_activity_merchandise_a">Merchandise</string>
     <string name="title_activity_radio_a">Radio_a</string>
 
 </resources>
