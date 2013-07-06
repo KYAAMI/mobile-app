@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
+@SuppressWarnings("deprecation")
 public class Music_a extends TabActivity {
 	
 	@Override
@@ -28,9 +29,9 @@ TabHost tabHost = getTabHost();
         photospec.setContent(photosIntent);
         
         // Tab for Songs
-        TabSpec songspec = tabHost.newTabSpec("Album");
+        TabSpec songspec = tabHost.newTabSpec("Albums");
         // setting Title and Icon for the Tab
-        songspec.setIndicator("Album", getResources().getDrawable(R.drawable.icon_album));
+        songspec.setIndicator("Albums", getResources().getDrawable(R.drawable.icon_album));
         Intent songsIntent = new Intent(this, Albums.class);
         songspec.setContent(songsIntent);
         
