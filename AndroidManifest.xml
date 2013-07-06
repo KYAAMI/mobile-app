@@ -42,6 +42,15 @@
             android:name="com.kyaami.mobileapp.www.Radio_a"
             android:label="@string/title_activity_radio_a" >
         </activity>
+        
+        <!--  Tags Activity -->
+        <activity android:name=".TagsActivity" />
+         
+        <!--  Authors Activity -->
+        <activity android:name=".AuthorsActivity" />
+         
+        <!--  Books Activity -->
+        <activity android:name=".BooksActivity" />
     </application>
 
 </manifest>
