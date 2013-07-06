@@ -18,47 +18,47 @@
         android:layout_marginTop="16dp"
         android:gravity="fill_horizontal"
         android:text="@string/menue"
-        android:textStyle="bold"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/music"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="fill_horizontal"
-        android:text="@string/music"
-        android:onClick="startActivityMusic" />
-    
+        android:onClick="startActivityMusic"
+        android:text="@string/music" />
+
     <Button
         android:id="@+id/events"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="fill_horizontal"
-        android:text="@string/events"
-        android:onClick="startActivityEvents" />
-    
+        android:onClick="startActivityEvents"
+        android:text="@string/events" />
+
     <Button
         android:id="@+id/merchandise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="fill_horizontal"
-        android:text="@string/merchandise"
-        android:onClick="startActivityMerchandise" />
+        android:onClick="startActivityMerchandise"
+        android:text="@string/merchandise" />
 
     <Button
         android:id="@+id/literature"
         android:layout_width="wrap_content"
-        android:gravity="fill_horizontal"
         android:layout_height="wrap_content"
-        android:text="@string/literature"
-        android:onClick="startActivityLiterature" />
+        android:gravity="fill_horizontal"
+        android:onClick="startActivityLiterature"
+        android:text="@string/literature" />
 
     <Button
         android:id="@+id/radio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="fill_horizontal"
-        android:text="@string/radio"
-        android:onClick="startActivityRadio" />
+        android:onClick="startActivityRadio"
+        android:text="@string/radio" />
 
 </LinearLayout>

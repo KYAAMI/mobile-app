@@ -15,5 +15,11 @@
     <string name="title_activity_literature_a">Literature_a</string>
     <string name="title_activity_merchandise_a">Merchandise_a</string>
     <string name="title_activity_radio_a">Radio_a</string>
+    <string name="title_activity_songs">Songs</string>
+    <string name="title_activity_albums">Albums</string>
+    <string name="title_activity_artists">Artists</string>
+    <string name="songs">SONGS</string>
+    <string name="albums">ALBUMS</string>
+    <string name="artists">ARTISTS</string>
 
 </resources>

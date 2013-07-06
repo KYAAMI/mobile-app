@@ -42,6 +42,18 @@
             android:name="com.kyaami.mobileapp.www.Radio_a"
             android:label="@string/title_activity_radio_a" >
         </activity>
+        <activity
+            android:name="com.kyaami.mobileapp.www.Songs"
+            android:label="@string/title_activity_songs" >
+        </activity>
+        <activity
+            android:name="com.kyaami.mobileapp.www.Albums"
+            android:label="@string/title_activity_albums" >
+        </activity>
+        <activity
+            android:name="com.kyaami.mobileapp.www.Artists"
+            android:label="@string/title_activity_artists" >
+        </activity>
     </application>
 
 </manifest>
