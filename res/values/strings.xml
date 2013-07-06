@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KYAAMI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="music">MUSIC</string>
+    <string name="menue">HOME PAGE</string>
+    <string name="events">EVENTS</string>
+    <string name="merchandise">MERCHANDISE</string>
+    <string name="radio">RADIO</string>
+    <string name="literature">LITERATURE</string>
+    <string name="title_activity_music_a">Music_a</string>
+    <string name="title_activity_events_a">Events_a</string>
+    <string name="title_activity_literature_a">Literature_a</string>
+    <string name="title_activity_merchandise_a">Merchandise_a</string>
+    <string name="title_activity_radio_a">Radio_a</string>
+
+</resources>
