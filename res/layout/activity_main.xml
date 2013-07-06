@@ -18,47 +18,53 @@
         android:layout_marginTop="16dp"
         android:gravity="fill_horizontal"
         android:text="@string/menue"
-        android:textStyle="bold"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/music"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="fill_horizontal"
-        android:text="@string/music"
-        android:onClick="startActivityMusic" />
-    
-    <Button
-        android:id="@+id/events"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="fill_horizontal"
-        android:text="@string/events"
-        android:onClick="startActivityEvents" />
-    
-    <Button
-        android:id="@+id/merchandise"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="fill_horizontal"
-        android:text="@string/merchandise"
-        android:onClick="startActivityMerchandise" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*" >
 
-    <Button
-        android:id="@+id/literature"
-        android:layout_width="wrap_content"
-        android:gravity="fill_horizontal"
-        android:layout_height="wrap_content"
-        android:text="@string/literature"
-        android:onClick="startActivityLiterature" />
+        <TableRow>
 
-    <Button
-        android:id="@+id/radio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="fill_horizontal"
-        android:text="@string/radio"
-        android:onClick="startActivityRadio" />
+            <Button
+                android:id="@+id/music"
+                android:onClick="startActivityMusic"
+                android:text="@string/music" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/events"
+                android:onClick="startActivityEvents"
+                android:text="@string/events" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/merchandise"
+                android:onClick="startActivityMerchandise"
+                android:text="@string/merchandise" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/literature"
+                android:onClick="startActivityLiterature"
+                android:text="@string/literature" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/radio"
+                android:onClick="startActivityRadio"
+                android:text="@string/radio" />
+        </TableRow>
+    </TableLayout>
 
 </LinearLayout>
