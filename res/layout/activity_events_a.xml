@@ -9,4 +9,55 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Events_a" >
 
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/artist_gigs"
+                android:drawableLeft="@drawable/sound"
+                android:drawableRight="@drawable/next"
+                android:text="Artists Events" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/events_calender"
+                android:drawableLeft="@drawable/event"
+                android:drawableRight="@drawable/next"
+                android:text="Events Calender" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/gig_map"
+                android:drawableLeft="@drawable/map"
+                android:drawableRight="@drawable/next"
+                android:text="Events Locator" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/venues"
+                android:drawableLeft="@drawable/venue"
+                android:drawableRight="@drawable/next"
+                android:text="Events Venues" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/my_gigs"
+                android:drawableLeft="@drawable/fav"
+                android:drawableRight="@drawable/next"
+                android:text="My Event Watchlist" />
+        </TableRow>
+    </TableLayout>
+
 </RelativeLayout>
