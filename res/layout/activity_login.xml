@@ -81,7 +81,9 @@
                 <TableRow>
                     <Button
                         android:id="@+id/sign_in_button"
-                        android:text="@string/action_sign_in_register" />
+                        android:text="@string/action_sign_in_register" 
+                     android:drawableRight="@drawable/next"
+                android:drawableLeft="@drawable/in" />
                 </TableRow>
             </TableLayout>
         </LinearLayout>
