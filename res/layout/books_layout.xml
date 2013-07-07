@@ -5,10 +5,8 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent">
   
-  <!--  Screen Design for VIDEOS -->
-  <TextView android:text="BOOKS HERE"
-  			android:padding="15dip"
-  			android:textSize="18dip"
-  			android:layout_width="fill_parent"
-  			android:layout_height="wrap_content"/>
+        <ListView
+        android:id="@+id/book_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>

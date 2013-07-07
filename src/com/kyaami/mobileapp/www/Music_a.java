@@ -37,10 +37,17 @@ TabHost tabHost = getTabHost();
         Intent videosIntent = new Intent(this, Artists.class);
         videospec.setContent(videosIntent);
         
+        // Tab for Genres
+        TabSpec genrespec = tabHost.newTabSpec("Genres");
+        genrespec.setIndicator("Genres", getResources().getDrawable(R.drawable.genre));
+        Intent genresIntent = new Intent(this, GenreActivity.class);
+        genrespec.setContent(genresIntent);
+        
         // Adding all TabSpec to TabHost
         tabHost.addTab(photospec); // Adding photos tab
         tabHost.addTab(songspec); // Adding songs tab
         tabHost.addTab(videospec); // Adding videos tab
+        tabHost.addTab(genrespec); // Adding genres tab
 		
 	}
 
