@@ -1,12 +1,8 @@
 package com.kyaami.mobileapp.www;
 
 import android.os.Bundle;
-import android.annotation.SuppressLint;
-import android.app.ActionBar;
-import android.app.Activity;
 import android.app.TabActivity;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TabHost;

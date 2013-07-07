@@ -14,8 +14,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.kyaami.mobileapp.www.MainActivity"
-            android:label="@string/app_name" >
+            android:name="com.kyaami.mobileapp.www.LoginActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,16 +42,15 @@
             android:name="com.kyaami.mobileapp.www.Radio_a"
             android:label="@string/title_activity_radio_a" >
         </activity>
-        
-        <!--  Tags Activity -->
-        <activity android:name=".TagsActivity" />
-         
-        <!--  Authors Activity -->
-        <activity android:name=".AuthorsActivity" />
-         
-        <!--  Books Activity -->
-        <activity android:name=".BooksActivity" />
-        
+
+        <!-- Tags Activity -->
+        <activity android:name="com.kyaami.mobileapp.www.TagsActivity" />
+
+        <!-- Authors Activity -->
+        <activity android:name="com.kyaami.mobileapp.www.AuthorsActivity" />
+
+        <!-- Books Activity -->
+        <activity android:name="com.kyaami.mobileapp.www.BooksActivity" />
         <activity
             android:name="com.kyaami.mobileapp.www.Songs"
             android:label="@string/title_activity_songs" >
@@ -64,7 +63,11 @@
             android:name="com.kyaami.mobileapp.www.Artists"
             android:label="@string/title_activity_artists" >
         </activity>
-
+        <activity
+            android:name="com.kyaami.mobileapp.www.MainActivity"
+            android:label="@string/app_name" 
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
     </application>
 
 </manifest>
